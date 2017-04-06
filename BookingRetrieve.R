@@ -8,7 +8,7 @@ library(jsonlite)
 library(RCurl)
 
 PNR <- "C6MF7Q"
-URL <- "https://api.flybe.com/booking-retrieve-service/retrievewithfares/"
+URL <- "https://xxxx/booking-retrieve-service/retrievewithfares/"
 
 makeCall <- paste(URL,PNR, sep = "") # 
 
